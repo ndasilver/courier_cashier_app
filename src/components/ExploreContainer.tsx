@@ -17,7 +17,7 @@ const ExploreContainer: React.FC<ContainerProps> = () => {
           <IonInput type="password" value='' color="light"></IonInput>
         </IonItem>
         <h6 className="ion-float-right forgot-password">Forgot password?</h6>
-        <IonButton expand="block">Sign in</IonButton>
+        <IonButton expand="block" routerLink='/cashierhome'>Sign in</IonButton>
       </form>
     </div>
   );
