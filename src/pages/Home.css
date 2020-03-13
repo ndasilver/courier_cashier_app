@@ -10,4 +10,9 @@ ion-toolbar ion-title ion-icon {
   font-size: 30px;
   font-weight: 800;
   padding-bottom: 15px;
+  color: white;
+}
+
+ion-toolbar ion-title {
+  color: white;
 }
