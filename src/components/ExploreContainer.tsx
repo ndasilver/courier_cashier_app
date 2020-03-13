@@ -1,3 +1,4 @@
+import { IonItem, IonInput, IonLabel, IonButton } from '@ionic/react';
 import React from 'react';
 import './ExploreContainer.css';
 
@@ -6,8 +7,18 @@ interface ContainerProps { }
 const ExploreContainer: React.FC<ContainerProps> = () => {
   return (
     <div className="container">
-      <strong>Ready to create an app?</strong>
-      <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+      <form>
+        <IonItem>
+          <IonLabel position="floating">Enter email</IonLabel>
+          <IonInput value=''></IonInput>
+        </IonItem>
+        <IonItem>
+          <IonLabel position="floating">Enter Password</IonLabel>
+          <IonInput type="password" value=''></IonInput>
+        </IonItem>
+        <h6 className="ion-float-right forgot-password">Forgot password?</h6>
+        <IonButton expand="block">Sign in</IonButton>
+      </form>
     </div>
   );
 };

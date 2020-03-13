@@ -1,4 +1,5 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { camera, trash, close, chevronBack } from 'ionicons/icons';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonIcon } from '@ionic/react';
 import React from 'react';
 import ExploreContainer from '../components/ExploreContainer';
 import './Home.css';
@@ -6,11 +7,13 @@ import './Home.css';
 const Home: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Blank</IonTitle>
-        </IonToolbar>
-      </IonHeader>
+      <IonToolbar>
+        <IonTitle>
+          <IonIcon icon={chevronBack}></IonIcon>
+        </IonTitle>
+        <IonTitle>Sign in to</IonTitle>
+        <IonTitle> continue</IonTitle>
+      </IonToolbar>
       <IonContent>
         <IonHeader collapse="condense">
           <IonToolbar>

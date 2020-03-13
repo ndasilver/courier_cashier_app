@@ -1,3 +1,13 @@
 ion-content ion-toolbar {
   --background: translucent;
 }
+
+ion-toolbar {
+  padding-top: 20px;
+}
+
+ion-toolbar ion-title ion-icon {
+  font-size: 30px;
+  font-weight: 800;
+  padding-bottom: 15px;
+}
