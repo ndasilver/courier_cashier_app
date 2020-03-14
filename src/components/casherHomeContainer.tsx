@@ -11,8 +11,8 @@ const cashierHomeContainer: React.FC<ContainerProps> = () => {
         <div className="container">
             <IonGrid>
                 <IonRow>
-                    <IonCol>
-                        <div className="homeButton ion-text-center">
+                    <IonCol className="">
+                        <div className="homeButton ion-text-center button1">
                             <IonIcon icon={location}></IonIcon>
                             <h5 className="iconTitle">Track Courier</h5>
                         </div>

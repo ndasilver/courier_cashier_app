@@ -10,7 +10,7 @@ const cashierHome: React.FC = () => {
             <IonToolbar>
                 <IonTitle>
                     {/* <IonIcon icon={chevronBack}></IonIcon> */}
-                    <h5 className="ion-text-center">Actions</h5>
+                    <h5 className="ion-text-center ">Actions</h5>
                 </IonTitle>
             </IonToolbar>
             <IonContent>
