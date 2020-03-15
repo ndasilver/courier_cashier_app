@@ -10,14 +10,14 @@ const ExploreContainer: React.FC<ContainerProps> = () => {
       <form>
         <IonItem>
           <IonLabel position="floating">Enter email</IonLabel>
-          <IonInput value=''></IonInput>
+          <IonInput value='' color="light"></IonInput>
         </IonItem>
         <IonItem>
           <IonLabel position="floating">Enter Password</IonLabel>
-          <IonInput type="password" value=''></IonInput>
+          <IonInput type="password" value='' color="light"></IonInput>
         </IonItem>
         <h6 className="ion-float-right forgot-password">Forgot password?</h6>
-        <IonButton expand="block">Sign in</IonButton>
+        <IonButton expand="block" routerLink='/cashierhome'>Sign in</IonButton>
       </form>
     </div>
   );

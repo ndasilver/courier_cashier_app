@@ -1,4 +1,5 @@
 .container {
+  color: white;
   margin: 0 20px 0 20px;
   text-align: center;
   position: absolute;
@@ -28,4 +29,16 @@
 
 .container a {
   text-decoration: none;
+}
+
+ion-label {
+  color: rgba(255, 255, 255, 0.733) !important;
+}
+
+input {
+  color: aliceblue;
+}
+
+ion-item {
+  --border-color: var(--ion-color-light, #ffffffc2);
 }
