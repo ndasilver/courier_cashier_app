@@ -1,0 +1,25 @@
+.icon_enter_code {
+    font-size: 200px;
+}
+
+.icon_round {
+    border: #1190DD 1px solid;
+    border-radius: 120px;
+    width: fit-content;
+    margin: 15px auto 15px auto;
+}
+
+.icon_input {
+    padding: 20px 0 0 0;
+    font-size: 45px;
+    float: left;
+}
+
+.container1 {
+    /* top: 210px !important; */
+    color: white;
+}
+
+.padding_button {
+    padding: 30px 0 0 0;
+}

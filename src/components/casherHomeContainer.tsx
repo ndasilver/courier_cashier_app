@@ -1,6 +1,6 @@
 
 import { location, paperPlane } from 'ionicons/icons'
-import { IonItem, IonInput, IonLabel, IonButton, IonGrid, IonRow, IonCol, IonIcon } from '@ionic/react';
+import { IonItem, IonInput, IonLabel, IonButton, IonGrid, IonRow, IonCol, IonIcon, IonNav, IonRouterLink, IonContent } from '@ionic/react';
 import React from 'react';
 import './casherHomeContainer.css';
 
@@ -12,10 +12,12 @@ const cashierHomeContainer: React.FC<ContainerProps> = () => {
             <IonGrid>
                 <IonRow>
                     <IonCol className="">
-                        <div className="homeButton ion-text-center button1">
-                            <IonIcon icon={location}></IonIcon>
-                            <h5 className="iconTitle">Track Courier</h5>
-                        </div>
+                        <IonRouterLink routerLink="/entercode" routerDirection="forward">
+                            <div className="homeButton ion-text-center button1">
+                                <IonIcon icon={location}></IonIcon>
+                                <h5 className="iconTitle">Track Courier</h5>
+                            </div>
+                        </IonRouterLink>
                     </IonCol>
                     <IonCol>
                         <div className='homeButton ion-text-center'>
