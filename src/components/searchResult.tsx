@@ -1,3 +1,5 @@
+
+import { location } from 'ionicons/icons'
 import { IonButton, IonGrid, IonRow, IonCol, IonIcon, IonBadge, IonImg } from '@ionic/react';
 import React from 'react';
 import './style.css';
