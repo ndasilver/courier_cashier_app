@@ -1,6 +1,6 @@
 
 import { location, paperPlane } from 'ionicons/icons'
-import { IonItem, IonInput, IonLabel, IonButton, IonGrid, IonRow, IonCol, IonIcon, IonNav, IonRouterLink, IonContent } from '@ionic/react';
+import { IonGrid, IonRow, IonCol, IonIcon, IonRouterLink } from '@ionic/react';
 import React from 'react';
 import './casherHomeContainer.css';
 
