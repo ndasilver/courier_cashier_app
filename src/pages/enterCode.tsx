@@ -1,4 +1,4 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonIcon } from '@ionic/react';
+import { IonContent, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import React from 'react';
 import EnterCode from '../components/enterCode';
 import './Home.css';

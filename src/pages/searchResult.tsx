@@ -1,5 +1,4 @@
-import { camera, trash, close, chevronBack, search } from 'ionicons/icons';
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonIcon } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import React from 'react';
 import ResultContent from '../components/searchResult';
 

@@ -1,6 +1,4 @@
-
-import { location, scanCircleOutline } from 'ionicons/icons'
-import { IonItem, IonInput, IonLabel, IonButton, IonGrid, IonRow, IonCol, IonIcon, IonBadge, IonImg, IonContent } from '@ionic/react';
+import { IonButton, IonGrid, IonRow, IonCol, IonIcon, IonBadge, IonImg } from '@ionic/react';
 import React from 'react';
 import './style.css';
 
