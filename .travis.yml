@@ -4,5 +4,7 @@ node_js:
 cache:
   directories:
   - node_modules
+before_script:
+ — npm install -g @ionic/cli
 script:
-  - npm run start
+  - ionic build
