@@ -1,4 +1,4 @@
-import { camera, trash, close, chevronBack } from 'ionicons/icons';
+import { chevronBack } from 'ionicons/icons';
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonIcon } from '@ionic/react';
 import React from 'react';
 import ExploreContainer from '../components/ExploreContainer';

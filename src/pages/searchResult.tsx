@@ -1,9 +1,8 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import React from 'react';
-import CasherHome from '../components/casherHomeContainer';
-import './Home.css';
+import ResultContent from '../components/searchResult';
 
-const cashierHome: React.FC = () => {
+const searchResult: React.FC = () => {
     return (
         <IonPage>
             <IonToolbar>
@@ -18,10 +17,10 @@ const cashierHome: React.FC = () => {
                         <IonTitle size="large">Blank</IonTitle>
                     </IonToolbar>
                 </IonHeader>
-                <CasherHome />
+                <ResultContent />
             </IonContent>
         </IonPage>
     );
 };
 
-export default cashierHome;
+export default searchResult;

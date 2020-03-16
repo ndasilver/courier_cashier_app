@@ -31,7 +31,7 @@ const enterCode: React.FC<ContainerProps> = () => {
                 </IonRow>
                 <IonRow>
                     <IonCol className="padding_button">
-                        <IonButton expand="block" routerLink='/cashierhome'>Submit</IonButton>
+                        <IonButton expand="block" routerLink='/result'>Submit</IonButton>
                     </IonCol>
                 </IonRow>
             </IonGrid>
