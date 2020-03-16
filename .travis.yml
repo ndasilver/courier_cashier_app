@@ -8,3 +8,6 @@ before_script:
  — npm install -g @ionic/cli
 script:
   - ionic build
+deploy:
+ skip-cleanup: true
+ keep-history: true
